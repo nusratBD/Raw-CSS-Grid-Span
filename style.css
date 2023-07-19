@@ -1,0 +1,22 @@
+.containers{
+    display: grid;
+    gap: 50px;
+}
+.container{
+    border: 3px solid tomato;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: rgb(245, 186, 127);
+}
+#container-1, #container-6{
+    grid-column: span 6;
+}
+#container-2, #container-3{
+    grid-row: span 6;
+}
+#container-3{
+    grid-column: span 4;
+}
+#container-4, #container-5{
+    grid-row: span 3;
+}
