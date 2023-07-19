@@ -20,3 +20,8 @@
 #container-4, #container-5{
     grid-row: span 3;
 }
+@media screen and (max-width: 576px) {
+    #container-1, #container-2,#container-3, #container-4,#container-5, #container-6{
+        grid-column: span 6;
+    }
+}
